@@ -1,0 +1,14 @@
+﻿Phần 1: Phân tích
+Chạy không được vì mắc 2 lỗi :
+Lỗi thứ nhất: tên thư mục có khoảng trắng
+Lỗi thứ hai: mkdir chưa tìm đc src của thư mục vì src không tồn tại
+
+sửa lỗi  : 
+mkdir Smart-Farm-Project
+cd Smart-Farm-Project
+mkdir src/sensors/temperature -force
+
+
+Phần 2: Hoàn thiện
+Chuỗi lệnh ít dòng nhất: 
+mkdir "Smart-Farm-Project/src/sensors/temperature"
